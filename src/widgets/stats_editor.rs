@@ -112,7 +112,7 @@ impl<S: Stats> Widget for StatsEditor<S> {
                 }
             }
 
-            if ui.button_with_size("Apply", [button_width, button_height]) {
+            if ui.button_with_size("应用", [button_width, button_height]) {
                 self.stats.write();
             }
 
